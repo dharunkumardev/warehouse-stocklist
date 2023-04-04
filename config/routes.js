@@ -12,6 +12,8 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
-  "POST /checking":"ProductController/productChecking"
+  "POST /checking":"ProductController/productChecking",
+  "POST /product/checkin":"ProductController/checkinQty",
+  "POST /product/checkout":"ProductController/checkoutQty"
 
 };

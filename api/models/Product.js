@@ -22,6 +22,15 @@ module.exports = {
     },
     checkType:{
       type:'string'
+    },
+    remarks:{
+      type:"string"
+    },
+    inQuantity:{
+      type:"number"
+    },
+    outQuantity:{
+      type:"number"
     }
   },
 };
